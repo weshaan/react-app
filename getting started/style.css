@@ -1,1 +1,19 @@
-background-color: green;
+body{
+    background: linear-gradient(to top, #d8eeff, #c2c3ff);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#head{
+    font-family: "press Start 2P";
+}
+
+.links{
+    width:500px;
+    border-style:outset;
+    border-width: 5px;
+    border-color: lightblue;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 10px;
+}
