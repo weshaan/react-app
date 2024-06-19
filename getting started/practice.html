@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Page</title>
+    <link rel="stylesheet" href="sty.css"> 
+    <style>
+        .internal-style {
+            background-color: green;
+            color: white;
+            text-align: left;
+            margin-bottom: 10px;
+        }
+        .button-1 {
+            background-color: black;
+            color: white;
+            font-size: 20px;
+            padding: 10px;
+        }
+        .button-2 {
+            background-color: yellow;
+            color: black;
+            font-size: 20px;
+            padding: 10px;
+        }
+        .styled {
+            background-color: yellow;
+            text-align: center;
+            color:red;
+            margin: 10px 0;
+        }
+        .confirm-button {
+            background-color: green;
+            color: white;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        .cancel-button {
+            background-color: rgb(255, 255, 255);
+            color: black;
+            font-size: 15px;
+        }
+        .thin-text {
+            font-weight: 100;
+            font-size: 20px;
+        }
+        .blue-box {
+            background-color: blue;
+            border-style: solid;
+            width: 300px;
+            height: 300px;
+            position: relative;
+        }
+        .red-box {
+            background-color: red;
+            border-style: solid;
+            border-width: 5px;
+            border-color: rgb(88, 25, 25);
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="external-style"><b>Style me via the external method!</b></div>
+    <div class="internal-style">I would like to be styled with the internal method, please.</div>
+    <div style="background-color: orange; color: black; border-style:outset; width:fit-content; padding-inline:3px;">Inline Method</div>
+    
+    <h3 class="class-style">Number 1 - I'm a class!</h3>
+    <div id="id-style-1">Number 2 - I'm one ID.</div>
+    <h1 class="class-style">Number 3 - I'm a class, but cooler!</h1>
+    <div id="id-style-2"><b>Number 4 - I'm another ID.</b></div>
+    <h3 class="class-style">Number 5 - I'm a class!</h3>
+    
+    <button class="button-1">Click Me!</button>
+    <button class="button-2">No, Click Me!</button>
+    
+    <div class="styled">This should be styled.</div>
+    <div>This should be unstyled.</div>
+    <div>This should be unstyled.</div>
+    <div class="styled">This should be styled.</div>
+    <div class="styled">This should be styled.</div>
+    
+    <p id="b1"><h2>I'm just a paragraph with extra bold text!</h2></p>
+    <p id="b2"><h4>I'm a smaller paragraph, also with extra bold text!</h4></p>
+    <button class="confirm-button">Confirm</button>
+    <button class="cancel-button">Cancel</button>
+    
+    <div class="thin-text">I'm a div with thin text!</div>
+    <div class="thin-text">I'm a div with thin text and a child div!
+        <div style="font-size: 15px;"><b>I'm a smaller child div with extra bold text.</b></div>
+    </div>
+    
+    <div class="blue-box">
+        <div class="red-box" style="font-size: 20px; text-align: center;"><b>center this div</b></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+.external-style {
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.class-style {
+    background-color:lightpink;
+    margin: 20px 0;
+}
+
+#id-style-1 {
+    font-size: 40px;
+    color: blue;
+}
+
+#id-style-2 {
+    font-size: 30px;
+    background-color: lightgreen;
+    margin: 10px 0;
+}
+
