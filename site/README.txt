@@ -1,0 +1,1 @@
+a simple hero layout of a freelance marketing company
