@@ -154,6 +154,56 @@ function App() {
         </div>
       </div>
       </div>
+
+      <div className="four">
+        <h2>TIMELINE</h2>
+      <div className="timeline">
+        <div className="line-one"></div>
+        <img src={arr} className="logooo g-one"alt="wow" />
+        <img src={arr} className="logooo g-two"alt="wow" />
+        <img src={arr} className="logooo g-three"alt="wow" />
+        <div className="line-two"></div>
+        <img src={arr} className="logooo g-four"alt="wow" />
+        <img src={arr} className="logooo g-five"alt="wow" />
+        <img src={arr} className="logooo g-six"alt="wow" />
+        <div className="timeline-box">
+          <h2>EVENT NAME</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
+          </p>
+        </div>
+        <div className="timeline-box">
+          <h2>EVENT NAME</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
+          </p>
+        </div>
+        <div className="timeline-box">
+          <h2>EVENT NAME</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
+          </p>
+        </div>
+        <div className="timeline-box">
+          <h2>EVENT NAME</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
+          </p>
+        </div>
+        <div className="timeline-box">
+          <h2>EVENT NAME</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
+          </p>
+        </div>
+        <div className="timeline-box">
+          <h2>EVENT NAME</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
+          </p>
+        </div>
+      </div>
+      </div>
       <footer>
       </footer>
     </>
