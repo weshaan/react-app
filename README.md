@@ -1,3 +1,3 @@
 # react-app
 
-A basic react based web application.
+Basic react based web applications.
