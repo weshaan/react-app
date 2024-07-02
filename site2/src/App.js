@@ -23,16 +23,16 @@ function App() {
       <nav>
         <div className="logo">Eshaan Walia</div>
         <ul className="navlist">
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">SERVICE</a></li>
-          <li><a href="#">WORK</a></li>
+          <li><a href="#hero">HOME</a></li>
+          <li><a href="#service">SERVICE</a></li>
+          <li><a href="#third">PROJECTS</a></li>
+          <li><a href="#four">WORK</a></li>
           <li><a href="#">RESUME</a></li>
           <li><a href="#">BLOG</a></li> 
           <li><a href="#">CONTACT</a></li>
         </ul>
       </nav>
-      <div className="hero">
+      <div className="hero" id="hero">
       <div className="left">
         <h2>WELCOME!</h2>
       <div className="typeanimate">
@@ -64,8 +64,8 @@ function App() {
         </div>
       </div>
       </div>
-      <div className="service">
-        <h2>OUR SERVICES</h2>
+      <div className="service" id="service">
+        <h2>MY SERVICES</h2>
         <p className='headpara'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat asperiores ad ratione officia, voluptatum eveniet! Aut, neque.</p>
         <div className="line"></div>
         <div className="service-box">
@@ -102,7 +102,7 @@ function App() {
           
         </div>
       </div>
-      <div className="third">
+      <div className="third" id="third">
         <h2>PROJECTS</h2>
         <div className="bar">
           <ul>
@@ -155,8 +155,8 @@ function App() {
       </div>
       </div>
 
-      <div className="four">
-        <h2>TIMELINE</h2>
+      <div className="four" id="four">
+        <h2>WORK</h2>
       <div className="timeline">
         <div className="line-one"></div>
         <img src={arr} className="logooo g-one"alt="wow" />
@@ -205,6 +205,7 @@ function App() {
       </div>
       </div>
       <footer>
+        <h2>THANK YOU!</h2>
       </footer>
     </>
   );
