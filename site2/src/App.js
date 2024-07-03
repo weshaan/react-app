@@ -6,7 +6,7 @@ import two from './twitter.svg';
 import thr from './linkedin.svg'; 
 import four from './insta.svg'; 
 import arr from './arrow.svg';
-import {useState} from 'react';
+import React, {useState} from 'react';
 
 function App() {
 
@@ -17,18 +17,27 @@ function App() {
   const openNewPage = () => {
     window.open('https://www.youtube.com/watch?v=iRLnLs0EuAo&list=PL-vLTRIxx-Su-dXIvbXPb8l-qnofCYiEN', '_blank');
   };
+  const [menuOpen, setMenuOpen] = useState(false);
 
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
   return (
     <>
       <nav>
         <div className="logo">Eshaan Walia</div>
-        <ul className="navlist">
+        <div className="menu" onClick={toggleMenu}>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul className={menuOpen?'open':''}>
           <li><a href="#hero">HOME</a></li>
           <li><a href="#service">SERVICE</a></li>
           <li><a href="#third">PROJECTS</a></li>
           <li><a href="#four">WORK</a></li>
           <li><a href="#">RESUME</a></li>
-          <li><a href="#">BLOG</a></li> 
+          <li><a href="https://weshaan.hashnode.dev/" target='_blank'>BLOG</a></li> 
           <li><a href="#">CONTACT</a></li>
         </ul>
       </nav>
@@ -38,11 +47,11 @@ function App() {
       <div className="typeanimate">
         <div className="static">I'm a </div>
         <ul className="dynamic">
-          <li><span>Devoloper</span></li>
-          <li><span>Soul</span></li>
-          <li><span>Part and Parcel</span></li>
+          <li><span>Eternal</span></li>
+          <li><span>Unborn</span></li>
+          <li><span>Primevial</span></li>
+          <li><span>Part n Parcel</span></li>
           <li><span>Of Krishna</span></li>
-          <li><span>Eternally</span></li>
         </ul>
       </div>
       <p className=''>
@@ -162,10 +171,11 @@ function App() {
         <img src={arr} className="logooo g-one"alt="wow" />
         <img src={arr} className="logooo g-two"alt="wow" />
         <img src={arr} className="logooo g-three"alt="wow" />
-        <div className="line-two"></div>
         <img src={arr} className="logooo g-four"alt="wow" />
         <img src={arr} className="logooo g-five"alt="wow" />
         <img src={arr} className="logooo g-six"alt="wow" />
+        <div className="line-two"></div>
+        
         <div className="timeline-box">
           <h2>EVENT NAME</h2>
           <p>
