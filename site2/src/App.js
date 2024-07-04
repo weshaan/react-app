@@ -48,7 +48,7 @@ function App() {
           <li><a href="#">CONTACT</a></li>
         </ul>
       </nav>
-      <div className="hero" id="hero">
+      <div className={`scalable-image ${isScaled ? 'fit-hero' : 'hero'}`} id="hero">
       <div className="left">
         <h2>WELCOME!</h2>
       <div className="typeanimate">
@@ -74,8 +74,7 @@ function App() {
       <div className="right">
         <div className="cicle-one">
           
-          <div className={`scalable-image ${isScaled ? 'spage' : 'circle-two'}`}
-        >
+          <div className={`scalable-image ${isScaled ? 'spage' : 'circle-two'}`}>
             <img src={lol} className="lol" alt="epic person" onClick={handleImageClick}/>
             <div>
             </div>
