@@ -22,6 +22,13 @@ function App() {
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
+
+  const [isScaled, setIsScaled] = useState(false);
+  
+  const handleImageClick = () => {
+    setIsScaled(!isScaled);
+  };
+  
   return (
     <>
       <nav>
@@ -67,8 +74,11 @@ function App() {
       <div className="right">
         <div className="cicle-one">
           
-          <div className="circle-two">
-            <img src={lol} className="lol" alt="epic person" />
+          <div className={`scalable-image ${isScaled ? 'spage' : 'circle-two'}`}
+        >
+            <img src={lol} className="lol" alt="epic person" onClick={handleImageClick}/>
+            <div>
+            </div>
           </div>
         </div>
       </div>
