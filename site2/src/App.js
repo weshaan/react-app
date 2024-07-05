@@ -225,6 +225,14 @@ function App() {
       </div>
       <footer>
         <h2>THANK YOU!</h2>
+        <div className="contact">
+          <h3>Get in touch?</h3>
+          <input type="text" name="namee" id="namee" placeholder='Name'/>
+          <input type="email" name="email" id="email" placeholder='Email'/>
+          <input type="text" name="subject" id="subject" placeholder='Subject'/>
+          <input type="text" name="message" id="message" placeholder='Message'/>
+          <button>Send email &#129058;</button>
+        </div>
       </footer>
     </>
   );
